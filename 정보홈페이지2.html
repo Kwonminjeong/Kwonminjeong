@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+ <head>
+	<title>컴퓨터프로그래머 Page</title>
+
+    <style type="text/css"> 
+
+		/*div 클래스에 대한 속성*/
+		div.topBox {
+			background-color:#ccddff;
+			height:100px;
+			padding-left:10px;
+			position: relative;	
+			display:block;		
+			line-height: 100px;	
+			white-space:nowrap;		
+		}
+
+		div.bottomBox {
+			background-color:#5D5D5D;
+			position:relative;
+			height:1000px;
+		}
+		
+		div.midBox {
+			background-color:white;
+			position:absolute;
+			top:5px;
+			left:5px;
+			right: 5px;
+			bottom: 100px;
+			padding: 10px;
+		}
+		
+		div.imgBox{		padding:35px;	}
+
+		nav ul{	list-style-type: none;	}
+		nav ul li {	display:inline;	}
+		nav ul li a{
+			text-decoration:none;
+			color:black;
+			margin: 10px;
+		}
+		
+	
+		
+		#whiteBig{
+			color:white;
+			font-weight:bold;
+			font-size:25px;
+		}
+
+		#whiteSmall{	
+			color:white;
+			font-size:15px;
+		}
+
+		#warningMes{
+			color: black;
+			font-weight:bold;
+			font-size:15px;
+		}
+			
+			
+		#copyRight{	
+			color:white;
+			font-size:15px;
+			position:absolute;
+			left:40%;			
+			bottom:15px			
+		}
+
+   </style>
+ </head>
+
+ <body>
+	<div class="topBox" >
+		<a id="whiteBig">컴퓨터프로그래머</a>
+		<div style="float:right;">
+		<nav>
+			<ul>
+				<li><a href="#"> 컴퓨터 프로그래밍 </a></li>
+				<li><a href="#"> 컴퓨터공학학과 </a></li>
+				<li><a href="#"> 컴퓨터 프로그램의 미래 </a></li>
+				<li><a href="#"> 컴퓨터 프로그래머의 진로 </a></li>
+			</ul>
+		</nav>
+		</div>	
+	</div>
+	
+
+	<div class="bottomBox">
+		
+		<div class="midBox">
+			<div class="imgBox" >
+				<img src="d:/programmer1.png"  >
+				<figcaption>컴퓨터 프로그래머의 모습</figcaption>
+			</div>
+
+			<div>
+				<a id="warningMes">컴퓨터프로그래머란</a>
+				<ul style="list-style-type:square;">
+					<li>컴퓨터 명령체계나 시스템을 만듬</li>
+					<li>프로그램 홈페이지 등을 만듬</li>
+					<li>자격증:정보처리기사, 민간 국제공인자격</li>
+					<li>학과:전산학, 정보처리학, 소프트웨어공학 등</li>
+				</ul><br/>
+
+				<a id="warningMes">컴퓨터프로그래머의 자질</a>
+				<ul style="list-style-type:square;"> 
+					<li>업무수행능력:전산, 창의력, 기술 설계, 조작 및 통제 등</li>
+					<li>지식:컴퓨터와 전자공학, 영어, 산수와 수학, 디자인, 공학과 기술</li>
+					<li>흥미: 탐구형, 현실형</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="copyRight" >
+			<a>copyright 2019 권민정</a>
+		</div>
+	</div>
+ </body>
+</html>
